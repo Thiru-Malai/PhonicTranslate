@@ -5,7 +5,7 @@
 wxIMPLEMENT_APP(App);
 
 bool App::OnInit() {
-	MainFrame* mainFrame = new MainFrame("Translate & Learn");
+	MainFrame* mainFrame = new MainFrame("Phonic Translate");
 	mainFrame->Show();
 	return true;
 }
